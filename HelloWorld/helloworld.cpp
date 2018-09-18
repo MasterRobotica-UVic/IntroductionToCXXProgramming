@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // standard C++ screen input/output functions
 
 int main()
 {
