@@ -11,4 +11,4 @@ Slides can be found [here](https://docs.google.com/presentation/d/11jX5ZQp-G80hw
 Feel free to suggest any comment or issue any question.
 
 ---
-Carlos
+Carlos - [carlos@beta-robots.com](carlos@beta-robots.com)
