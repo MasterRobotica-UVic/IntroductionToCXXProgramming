@@ -1,8 +1,8 @@
 # Introduction to C++ programming
 
-This is session 2 of the brdige course.
+This is Session no. 2 of the brdige course before the master course.
 
-You need to install CMake, make and compilers using `sudo apt-get install build-essential`
+You need to install CMake, make and compilers using `sudo apt-get install build-essential` to run the examples.
 
 Each folder is a separate project with each own `CMakeLists.txt` file to ease the reading and understanding of each topic.
 
