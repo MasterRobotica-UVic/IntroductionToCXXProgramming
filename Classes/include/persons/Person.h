@@ -32,10 +32,11 @@ public:
 		age__ = __n;
 	}
 
+	std::string tellMySecretPhrase();
+
 protected:
 	std::string name__;
 	int age__;
-
 };
 
 #endif

@@ -1,21 +1,24 @@
 #ifndef ___PERSONS___PEPITA_H___
 #define ___PERSONS___PEPITA_H___
 
-#include <persons/Person.h>
+#include <persons/NamedPerson.h>
 
-namespace persons
-{
-
-class Pepita : public Person
+class Pepita : public NamedPerson
 {
 public:
+	Pepita() :
+		NamedPerson("Pepita")
+	{
+		my_secret_phrase__ = "All Pepita's will rule the world";
+	}
+
+	std::string tellMySecretPhrase();
 
 protected:
+	std::string tellPepitaSecretePhrase();
 
 private:
-
+	std::string my_secret_phrase__;
 };
-
-}
 
 #endif

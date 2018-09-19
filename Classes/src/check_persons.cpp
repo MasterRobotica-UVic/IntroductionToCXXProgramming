@@ -1,7 +1,4 @@
-#include <persons/Juanito.h>
-#include <persons/Pepita.h>
-
-
+#include <persons/Person.h>
 
 std::string whatIsYourNameByRef(Person& __p) // note the &
 {
