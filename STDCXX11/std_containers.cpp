@@ -79,6 +79,18 @@ int main()
 		std::cout << "\t" << c.first << "\t" << c.second.getLength() << std::endl;
 	std::cout << std::endl;
 
+	// sum all lengths and measure time
+	auto tic = std::chrono::high_resolution_clock::now();
+	double sum_of_lengths = 0;
+	for(auto c : cable_chunks)
+		sum_of_lengths = sum_of_lengths + c.getLength();
+	auto toc = std::chrono::high_resolution_clock::now();
+
+	auto dt = 1.e-9*std::chrono::duration_cast<std::chrono::nanoseconds>( toc - tic ).count();
+
+	std::cout << "All lenghts sumed in " << dt << " nanoseconds, giving " << std::endl;
+	std::cout << "Result: " << sum_of_lengths << std::endl << std::endl;
+
 	return 0;
 }
 
