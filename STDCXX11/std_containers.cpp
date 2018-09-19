@@ -89,7 +89,7 @@ int main()
 	auto dt = 1.e-9*std::chrono::duration_cast<std::chrono::nanoseconds>( toc - tic ).count();
 
 	std::cout << "Sum of lengths: " << sum_of_lengths << std::endl;
-	std::cout << "All lenghts sumed in " << dt << " nanoseconds, giving " << std::endl << std::endl;
+	std::cout << "All lenghts sumed in " << dt << " seconds, giving " << std::endl << std::endl;
 
 	return 0;
 }
