@@ -23,7 +23,7 @@ target_link_libraries(example_shared
 
 
 ### Using a STATIC library ###
-add_library(myFunctions_static
+add_library(myFunctions_static STATIC
 	lib_src/functions.cpp
 )
 target_link_libraries(myFunctions_static)
